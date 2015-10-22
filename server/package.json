@@ -1,0 +1,12 @@
+{
+  "name": "LediMote",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "morgan": "1.6.1",
+    "socket.io": "1.3.7"
+  }
+}
