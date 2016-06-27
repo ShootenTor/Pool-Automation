@@ -27,7 +27,7 @@ socket.on ('red1', function (state) {
 });
 
 socket.on ('red', function (state) {
-	$('#checkbox-red').bootstrapSwitch('setState', true, true);
+	$('#checkbox-red').bootstrapSwitch('setState', true );
   console.log(state);
 });
 
